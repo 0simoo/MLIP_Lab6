@@ -21,7 +21,7 @@ pipeline {
                 # TODO Complete the command to run pytest
                 sudo /home/team22/miniconda3 run -n venv pytest test_utility.py
 
-                echo 'pytest not runned'
+                #echo 'pytest not runned'
                 #exit 1 #comment this line after implementing Jenkinsfile
                 '''
             }
